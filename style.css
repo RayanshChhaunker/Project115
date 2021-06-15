@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+
+#buttontake:hover{
+    background-color: red;
+}
+body canvas{
+    border: 3px dotted black;
+    animation-name: freeshow;
+    animation-duration: 7000ms;
+    animation-iteration-count: infinite;
+}
+@keyframes freeshow {
+    from {box-shadow: 1px 1px 35px red;}
+    to {box-shadow: 1px 1px 35px orange;}
+}
